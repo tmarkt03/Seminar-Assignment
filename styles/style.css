@@ -1,0 +1,87 @@
+header {
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background-color: lightcoral;
+    padding: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-color: blue;
+    border-top-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+}
+header img {
+    border-radius: 10px;
+    float: right;
+    margin: 20px 10px 0px 10px;
+}
+div#wrapper {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+aside {
+    display: table-cell;
+    vertical-align: top;
+    
+}
+nav {
+    top: 0px;
+    background-color: lightcoral;
+    border-bottom-left-radius: 10px;
+    border-color: blue;
+    border-left-style: solid;
+    border-bottom-style: solid;
+    
+}
+nav:after { 
+    position: absolute;
+    border-right: 4px solid blue; 
+    border-top-right-radius: 10px;
+    padding-left: 105px;
+    content: '';
+    height: 740px;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 15px 0px;
+}
+nav ul li {
+    padding: 0px 15px;;
+}
+nav ul li.active {
+    border-right: 5px solid blue;
+}
+nav ul a {
+    text-decoration: none;
+    color: blue;
+}
+div#content {
+    display: table-cell;
+    width: 100%;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: lightcoral;
+    padding: 15px;
+    border-color: blue;
+    border-bottom-style: solid;
+    border-right-style: solid;
+    height: 850px;
+
+}
+div#content img{
+    float: right;
+    width: 20em;
+    height: auto;
+    margin: 0 0 15px 15px;
+    padding: 3px;
+    border: 3px solid blue;
+    border-radius: 10px;
+}
+footer {
+    border-radius: 10px;
+    margin: 10px;
+    padding: 5px 20px;
+    background-color: lightcoral;
+    border: 3px solid blue;
+}

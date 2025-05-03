@@ -1,0 +1,32 @@
+<?php
+$pagetitle = array(
+    'title' => 'Assignment Website',
+);
+
+$header = array(
+    'imagesource' => 'school.jpg',
+    'imgsize'=> '70',
+    'imagealt' => 'school',
+	'title' => 'Assignment Website',
+	'motto' => ''
+);
+
+$footer = array(
+    'copyright' => 'Copyright '.date("Y").'.',
+    'firm' => 'Assignment Website'
+);
+
+$pages = array(
+	'/' => array('file' => 'home', 'text' => 'Home', 'menun' => array(1,1)),
+	'introduction' => array('file' => 'introduction', 'text' => 'Introduction', 'menun' => array(1,1)),
+	'contact' => array('file' => 'contact', 'text' => 'Contact', 'menun' => array(1,1)),
+	'articlesppp' => array('file' => 'articles', 'text' => 'Articles', 'menun' => array(1,1)),
+    'table' => array('file' => 'table', 'text' => 'Table', 'menun' => array(1,1)),
+	'login' => array('file' => 'login', 'text' => 'Login', 'menun' => array(1,0)),
+    'logout' => array('file' => 'logout', 'text' => 'Logout', 'menun' => array(0,1)),
+	'login2' => array('file' => 'login2', 'text' => '', 'menun' => array(0,0)),
+    'registration' => array('file' => 'registration', 'szoveg' => '', 'menun' => array(0,0))
+);
+
+$error_page = array ('file' => '404', 'text' => 'Page not found!');
+?>
