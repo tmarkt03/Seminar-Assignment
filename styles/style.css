@@ -9,11 +9,17 @@ header {
     border-top-style: solid;
     border-left-style: solid;
     border-right-style: solid;
+    h1 {
+        float:right;
+    }    
 }
+
 header img {
+    align-content: center;
+    position: inherit;
     border-radius: 10px;
-    float: right;
-    margin: 20px 10px 0px 10px;
+    padding: 10px;
+    margin: 20px 0px 0px 0px;
 }
 div#wrapper {
     margin-left: 100px;
@@ -25,7 +31,6 @@ aside {
     
 }
 nav {
-    top: 0px;
     background-color: lightcoral;
     border-bottom-left-radius: 10px;
     border-color: blue;
@@ -35,11 +40,11 @@ nav {
 }
 nav:after { 
     position: absolute;
-    border-right: 4px solid blue; 
+    border-right: 3px solid blue; 
     border-top-right-radius: 10px;
-    padding-left: 105px;
+    padding-left: 90px;
     content: '';
-    height: 740px;
+    height: 745px;
 }
 nav ul {
     list-style-type: none;

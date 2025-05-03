@@ -10,7 +10,7 @@
 </head>
 <body>
 	<header>
-		<img src="./images/<?=$header['imagesource']?>" alt="<?=$header['imagealt']?>" width, height="<?=$header['imgsize']?>">
+	<img src="./images/<?=$header['imagesource']?>" alt="<?=$header['imagealt']?>" width, height="<?=$header['imgsize']?>">
 		<h1><?= $header['title'] ?></h1>
 		<?php if (isset($header['motto'])) { ?><h2><?= $header['motto'] ?></h2><?php } ?>
 		<?php if(isset($_SESSION['user'])) { ?>Logged in: <strong><?= $_SESSION['user']." &nbsp ".$_SESSION['fn']." ".$_SESSION['ln']." "?></strong><?php } ?>
