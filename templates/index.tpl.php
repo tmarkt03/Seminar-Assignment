@@ -18,7 +18,7 @@
     <div id="wrapper">
         <aside id="nav">
             <nav class="target" class="wrapper">
-                <ul>
+				<ul>
 					<?php foreach ($pages as $url => $page) { ?>
 						<?php if(! isset($_SESSION['user']) && $page['menun'][0] || isset($_SESSION['user']) && $page['menun'][1]) { ?>
 							<li<?= (($page == $find) ? ' class="active"' : '') ?>>
@@ -27,7 +27,7 @@
 							</li>
 						<?php } ?>
 					<?php } ?>
-                </ul>
+				</ul>
             </nav>
         </aside>
         <div id="content">

@@ -18,10 +18,9 @@ $footer = array(
 
 $pages = array(
 	'/' => array('file' => 'home', 'text' => 'Home', 'menun' => array(1,1)),
-    'images' => array('file' => 'images', 'text' => 'Images', 'menun' => array(1,1)),
-	'contact' => array('file' => 'contact', 'text' => 'Contact', 'menun' => array(1,1)),
+    'images' => array('file' => 'images', 'text' => 'Images', 'menun' => array(0,1)),
+	'contact' => array('file' => 'contact', 'text' => 'Contact', 'menun' => array(0,1)),
     'messages' => array('file' => 'messages', 'text' => 'Messages', 'menun' => array(0,1)),
-    'table' => array('file' => 'table', 'text' => 'Table', 'menun' => array(1,1)),
 	'login' => array('file' => 'login', 'text' => 'Login', 'menun' => array(1,0)),
     'logout' => array('file' => 'logout', 'text' => 'Logout', 'menun' => array(0,1)),
 	'login2' => array('file' => 'login2', 'text' => '', 'menun' => array(0,0)),
