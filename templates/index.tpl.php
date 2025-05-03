@@ -8,6 +8,9 @@
 	<link rel="stylesheet" href="./styles/style.css" type="text/css">
 	<?php if(file_exists('./styles/'.$find['file'].'.css')) { ?><link rel="stylesheet" href="./styles/<?= $find['file']?>.css" type="text/css"><?php } ?>
 </head>
+<style>
+	body {background-color: aqua;}
+</style>
 <body>
 	<header>
 	<img src="./images/<?=$header['imagesource']?>" alt="<?=$header['imagealt']?>" width, height="<?=$header['imgsize']?>">
