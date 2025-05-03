@@ -17,7 +17,7 @@ header {
 header img {
     align-content: center;
     position: inherit;
-    border-radius: 10px;
+    border-radius: 15px;
     padding: 10px;
     margin: 20px 0px 0px 0px;
 }
@@ -36,6 +36,7 @@ nav {
     border-color: blue;
     border-left-style: solid;
     border-bottom-style: solid;
+    width: 90px;
     
 }
 nav:after { 
@@ -44,7 +45,7 @@ nav:after {
     border-top-right-radius: 10px;
     padding-left: 90px;
     content: '';
-    height: 745px;
+    height: 757px;
 }
 nav ul {
     list-style-type: none;
